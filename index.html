@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jey — Personal Landing</title>
+  <meta name="description" content="Personal site for Jey">
+  <meta name="theme-color" content="#f3e8ff">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#home">jey</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container hero-inner">
+      <h1 class="intro-title">Hi, I’m jey</h1>
+      <p class="intro-subtitle">I craft clean, delightful web experiences.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span></span>
+    </div>
+  </main>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About</h2>
+      <p class="section-text reveal">I’m a developer who enjoys turning ideas into simple, useful, and joyful interfaces. I focus on accessibility, performance, and a smooth user experience.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="grid">
+        <article class="card reveal">
+          <h3>Project One</h3>
+          <p>A short description of something you built that you’re proud of.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <h3>Project Two</h3>
+          <p>Another quick highlight to showcase your range and style.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <h3>Project Three</h3>
+          <p>One more example to round things out and invite exploration.</p>
+          <a href="#" class="card-link">Learn more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <p class="section-text reveal">Email me at <a href="mailto:hello@jey.dev">hello@jey.dev</a>. I’m open to collaborations and interesting problems.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> jey. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
